@@ -1,5 +1,5 @@
 # tic-tac-toe
-=======
+
 ##### rebuilding tic-tac-toe for modern web
 # Rationale
 This course is to help the student become a proficient web developer
