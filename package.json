@@ -1,0 +1,22 @@
+{
+  "name": "tic-tac-toe",
+  "version": "1.0.0",
+  "description": "##### rebuilding tic-tac-toe for modern web # Rationale This course is to help the student become a proficient web developer # Course Aims and Outcomes ## Aims: The course aims to provide the student with insight into front end and back end web development. It will provide them with a modern web development tool set and skills used professionally at the company and by a typical web developer. In the student's day to day profession, it should provide them knowledge about the difficulties and challenges and unique obstacles a web developer encounters, as well as knowledge about how a modern web app is developed. ## Specific Learning Outcomes: By the end of this course, students will: \tBe able to Develop a fully functional front end web application in Javascript using the web framework Angular.js \tBe fluent in Javascript \tBe fluent in the DOM \tUnderstand MVC \tUnderstand Node.js \tUnderstand the Difference Between Back end and Front End JS \tUnderstand the concept of WebSockets \tUnderstand Events \tUnderstand Basic Data Structures \tUnderstand Database Modeling ## Format and Procedures:   The course will run weekly. Attendance is optional however coming every week will be the most beneficial. It will be driven by the students, with the instructor providing guidance to help achieve their goals. Missing gaps in knowledge will be provided by the instructor. ## My Assumptions The student's have already a working knowledge of what programming is, how the Internet works, how to navigate a website. ## Tentative Course Schedule Schedule | Topic|Description ---------|------|----------- Week 1 | Introduction to the App and Starting Steps | Will introduce the idea and motivation of the course. Will introduce the app, the Tic Tac Toe game and how to implement Will discuss the effects of Real Time and what we would want the Back End to do.Will begin to Implement the Tic Tac Toe game. Discussion of Native Javascript Week 2 | Begin to write in the logic of the application |Displaying the Button of the X in JS Capturing the Button Event of the X Begin to store the events Week 3 | Adding Business Logic of the Application | Processing the events Capturing the Win Conditions Reseting the Game Week 4 | Introducing Player 2 | Integrating a second player into the game Setting up a score board Week 5 | Setting up the node server | Designing the Real Time system Will achieve the effect of two different users in two different browsers playing the game Week 6 | Creating a Database to store users | Keeping track of users with a leader board Week 7 | Integrating the front end with the back end | Week 8 | Converting the Front End App Into Angular | Converting the Front end Application into an Angular Application Week X | To Be Determined.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/timestep/tic-tac-toe.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/timestep/tic-tac-toe/issues"
+  },
+  "homepage": "https://github.com/timestep/tic-tac-toe#readme",
+  "devDependencies": {
+    "eslint": "^1.8.0"
+  }
+}
