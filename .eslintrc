@@ -21,7 +21,6 @@
     "no-spaced-func": 2,
     "no-underscore-dangle": 0,
     "no-unused-vars": [2, {"vars": "all", "args": "after-used"}],
-    "no-undef": 2,
     "no-use-before-define": [2, "nofunc"],
     "no-warning-comments": 0,
     "object-curly-spacing": [2, "never"],
