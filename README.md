@@ -14,11 +14,11 @@ In the student's day to day profession, it should provide them knowledge about t
 ## Specific Learning Outcomes:
 By the end of this course, students will
 - Be able to Develop a fully functional front end web application in Javascript using the web framework Angular.js
+-	Understand the Difference Between Back end and Front End JS
 -	Be fluent in Javascript
--	Be fluent in the DOM
+-	Understand the concept of the DOM
 -	Understand MVC
 -	Understand Node.js
--	Understand the Difference Between Back end and Front End JS
 -	Understand the concept of WebSockets
 -	Understand Events
 -	Understand Basic Data Structures
