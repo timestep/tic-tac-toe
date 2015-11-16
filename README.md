@@ -1,5 +1,7 @@
 # tic-tac-toe
 
+https://trello.com/b/5MzeIo1w/tic-tac-toe
+
 ##### rebuilding tic-tac-toe for modern web
 # Rationale
 This course is to help the student become a proficient web developer. We will be building an app, opposed to a traditional instructor driven course. There are many online resources available to learn the basics of programming and Javascript(ie. codecademy.com, codeschool.com). However, skills to develop applications are not easily taught in these courses, and might require guidance. This course aims to fill that gap.
