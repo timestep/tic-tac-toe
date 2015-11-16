@@ -1,45 +1,34 @@
-var grid = [5,5,5,5,5,5,5,5]
+(function () {
 
-var init = function(){
-	for (var index = 0; index < grid.length; index++) {
-		generateButton(index);		
+	var btn1Clicked = 0;
+
+	var grid = [[0,0,0], [0,0,0] , [0,0,0]];
+
+	for (var i = 0; i < grid.length; i++) {
+		createBreak(i);
+		for (var j = 0; j < grid[i].length; j++) {
+			createButton(i,j);
+		}
 	}
-}
 
-function generateButton(gridIndex){
-	var btn = document.createElement("BUTTON");        // Create a <button> element
-	btn.setAttribute("id", "button");
-	btn.gridIndex = {
-		indexValue: gridIndex,
-		value: 1
-	};
-	btn.onclick = onClickOfButton;
-	var t = document.createTextNode("CLICK ME");       // Create a text node
-	btn.appendChild(t);                                // Append the text to <button>
-	document.body.appendChild(btn);
-}
-
-function setBoardState(gridPosition){
-	if(!grid[gridPosition.indexValue]){
-		grid[gridPosition.indexValue] = 1;
-	} else {
-		grid[gridPosition.indexValue] = 0;
+	function createButton(i,j) {
+		var btn = document.createElement("BUTTON");
+		btn.innerText = '-';
+		document.body.appendChild(btn);
 	}
-}
 
-function checkBoardState(){
-	if(grid[0] === 0 && grid[1] === 0 && grid[2] === 0){
-		alert('You win')
+	function createBreak(i) {
+		var br = document.createElement("BR");
+		document.body.appendChild(br);
 	}
-}
 
-function onClickOfButton(event){
-	event.srcElement.innerHTML = 'Hoopla'
-	setBoardState(event.srcElement.gridIndex);
-	checkBoardState();
-}
+	btn.onclick = function (event) {
+		if(btn1Clicked > 0){
+			return;
+		}
+		btn1Clicked = btn1Clicked + 1;
+		btn.innerText = "X";
+		console.log(btn1Clicked);
+	}
 
-document.addEventListener("DOMContentLoaded", function(event) { 	
-	console.log("DOM fully loaded and parsed");
-	init();
-});
+})()
