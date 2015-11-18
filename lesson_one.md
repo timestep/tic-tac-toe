@@ -12,4 +12,8 @@ The instructor will be employing the Socratic method, asking the student questio
 You have or can do the full codeacadmey/code school online course.
 
 ## Objectives
+Introduce the Application we will be spending the course building.
+
+Rebuilding Tic-Tac-Toe (X and O).
+
 At the end of this lesson, we expect the students to have been able to create basic buttons that represent user input and selections.
