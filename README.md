@@ -39,14 +39,13 @@ This is a very loose outline. It might take a bit longer than this to achieve th
 
 Schedule | Topic|Description
 ---------|------|-----------
-Week 1 | Introduction to the App and Starting Steps | Will introduce the idea and motivation of the course. Will introduce the app, the Tic Tac Toe game and how to implement Will discuss the effects of Real Time and what we would want the Back End to do.Will begin to Implement the Tic Tac Toe game. Discussion of Native Javascript
-Week 2 | Begin to write in the logic of the application |Displaying the Button of the X in JS Capturing the Button Event of the X Begin to store the events
-Week 3 | Adding Business Logic of the Application | Processing the events Capturing the Win Conditions Reseting the Game
-Week 4 | Introducing Player 2 | Integrating a second player into the game Setting up a score board
-Week 5 | Setting up the node server | Designing the Real Time system Will achieve the effect of two different users in two different browsers playing the game
-Week 6 | Creating a Database to store users | Keeping track of users with a leader board
-Week 7 | Integrating the front end with the back end |
-Week 8 | Converting the Front End App Into Angular | Converting the Front end Application into an Angular Application
+Week 1 | Introduction to the App and Starting Steps | Will introduce the idea and motivation of the course. Will introduce the app, the Tic Tac Toe game and how to implement Will discuss the effects of Real Time and what we would want the Back End to do.Will begin to Implement the Tic Tac Toe game. Discussion of Native Javascript. Displaying the Button of the X in JS Capturing the Button Event of the X Begin to store the events
+Week 2 | Adding Business Logic of the Application | Representing the UI in a modifiable Data format. Being able to play with the data representation of the UI. Changing the data format based on User Input. Adding the second player via an alternating system.
+Week 3 | Introducing Player 2 | Integrating a second player into the game Setting up a score board
+Week 4 | Setting up the node server | Designing the Real Time system Will achieve the effect of two different users in two different browsers playing the game
+Week 5 | Creating a Database to store users | Keeping track of users with a leader board
+Week 6 | Integrating the front end with the back end |
+Week 7 | Converting the Front End App Into Angular | Converting the Front end Application into an Angular Application
 Week X | To Be Determined. |
 
 ## The Application
