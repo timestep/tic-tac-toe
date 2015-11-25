@@ -27,7 +27,7 @@ By the end of this course, students will
 -	Understand Database Modeling
 
 ## Format and Procedures:  
-The course will run weekly.
+The course will run *bi* weekly.
 
 Attendance is optional however coming every week will be the most beneficial.
 
