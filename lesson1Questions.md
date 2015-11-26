@@ -15,3 +15,5 @@ So we have to determine what the the most minimal amount of effort we have to do
 The smallest piece of the grid, it probably the input. It is the most singular, and non dependant piece. Its the most atomized part of our game. Everything relies on it. The button requires nothing, but the users input.
 
 Whenever we start developing anything, we have to find the core pieces that don't require anything.
+
+##Why is the loop constructed the way it is?
