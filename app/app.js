@@ -1,34 +1,44 @@
 (function () {
 
-	var btn1Clicked = 0;
+	var grid = [[0, 0, 0], [0, 0, 0], [0, 0, 0]];
 
-	var grid = [[0,0,0], [0,0,0] , [0,0,0]];
+	window.grid = grid;
 
 	for (var i = 0; i < grid.length; i++) {
-		createBreak(i);
+		createBreak();
 		for (var j = 0; j < grid[i].length; j++) {
-			createButton(i,j);
+			createButton(i, j);
 		}
 	}
 
-	function createButton(i,j) {
-		var btn = document.createElement("BUTTON");
+	function createButton(i, j) {
+		var btn = document.createElement('BUTTON');
 		btn.innerText = '-';
+		btn.coordinates = {
+			i: i,
+			j: j
+		};
 		document.body.appendChild(btn);
+		btn.onclick = function () {
+			btn.innerText = 'X';
+			updateGridCoordinate(btn.coordinates);
+			checkWin();
+		};
 	}
 
-	function createBreak(i) {
-		var br = document.createElement("BR");
+	function updateGridCoordinate(coordinates) {
+		grid[coordinates.i][coordinates.j] = 1;
+	}
+
+	function checkWin(){
+
+	}
+
+	function createBreak() {
+		var br = document.createElement('BR');
 		document.body.appendChild(br);
 	}
 
-	btn.onclick = function (event) {
-		if(btn1Clicked > 0){
-			return;
-		}
-		btn1Clicked = btn1Clicked + 1;
-		btn.innerText = "X";
-		console.log(btn1Clicked);
-	}
 
-})()
+
+})();
