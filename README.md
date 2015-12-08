@@ -1,6 +1,6 @@
 # tic-tac-toe
 
-https://trello.com/b/5MzeIo1w/tic-tac-toe
+http://codepen.io/timestep/pen/rxarPM?editors=101#0
 
 ##### rebuilding tic-tac-toe for modern web
 # Rationale
