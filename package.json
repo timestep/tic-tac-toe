@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/timestep/tic-tac-toe#readme",
   "devDependencies": {
-    "eslint": "^1.8.0"
+    "eslint": "^3.14.0"
   }
 }
