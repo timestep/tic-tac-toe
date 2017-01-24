@@ -1,5 +1,7 @@
 # tic-tac-toe
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/timestep/tic-tac-toe.svg)](https://greenkeeper.io/)
+
 http://codepen.io/timestep/pen/rxarPM?editors=101#0
 
 ##### rebuilding tic-tac-toe for modern web
